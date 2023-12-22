@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-22T17:04:03 IST" name="Default suite" finished-at="2023-12-22T17:04:41 IST" duration-ms="37885">
+    <groups>
+    </groups>
+    <test started-at="2023-12-22T17:04:03 IST" name="Default test" finished-at="2023-12-22T17:04:41 IST" duration-ms="37885">
+      <class name="test.FaceBookLoginTest1">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:03 IST" name="configureReports" finished-at="2023-12-22T17:04:03 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:03 IST" name="BrowserLaunch" finished-at="2023-12-22T17:04:13 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="InvalidPasswordValidUsername()[pri:-1, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:13 IST" name="InvalidPasswordValidUsername" finished-at="2023-12-22T17:04:14 IST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPasswordValidUsername -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:14 IST" name="addTestStatus" finished-at="2023-12-22T17:04:14 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidPasswordValidUsername status=SUCCESS method=FaceBookLoginTest1.InvalidPasswordValidUsername()[pri:-1, instance:test.FaceBookLoginTest1@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:14 IST" name="BrowserLaunch" finished-at="2023-12-22T17:04:23 IST" duration-ms="8873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="InvalidPasswordInvalidUsername()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:23 IST" name="InvalidPasswordInvalidUsername" finished-at="2023-12-22T17:04:24 IST" duration-ms="1010" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method test.FaceBookLoginTest1.InvalidPasswordInvalidUsername() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method test.FaceBookLoginTest1.InvalidPasswordInvalidUsername() didn't finish within the time-out 1000
+at java.base@17.0.8/java.lang.Thread.sleep(Native Method)
+at app//test.FaceBookLoginTest1.InvalidPasswordInvalidUsername(FaceBookLoginTest1.java:58)
+at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.8/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.8/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.8/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@17.0.8/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.8/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.8/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidPasswordInvalidUsername -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:24 IST" name="addTestStatus" finished-at="2023-12-22T17:04:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidPasswordInvalidUsername status=FAILURE method=FaceBookLoginTest1.InvalidPasswordInvalidUsername()[pri:0, instance:test.FaceBookLoginTest1@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="BrowserLaunch()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:24 IST" name="BrowserLaunch" finished-at="2023-12-22T17:04:39 IST" duration-ms="15282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="ValidPasswordInvalidUsername()[pri:1, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:39 IST" name="ValidPasswordInvalidUsername" finished-at="2023-12-22T17:04:40 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidPasswordInvalidUsername -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:40 IST" name="addTestStatus" finished-at="2023-12-22T17:04:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidPasswordInvalidUsername status=SUCCESS method=FaceBookLoginTest1.ValidPasswordInvalidUsername()[pri:1, instance:test.FaceBookLoginTest1@145f66e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="publishReports()[pri:0, instance:test.FaceBookLoginTest1@145f66e3]" started-at="2023-12-22T17:04:40 IST" name="publishReports" finished-at="2023-12-22T17:04:41 IST" duration-ms="1003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReports -->
+      </class> <!-- test.FaceBookLoginTest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
