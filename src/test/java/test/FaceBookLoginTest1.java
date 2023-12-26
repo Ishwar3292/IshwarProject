@@ -42,7 +42,7 @@ public class FaceBookLoginTest1 extends BaseTest  {
 		obj.enterPassword("1234");
 		//obj.clickOnLogin();
 	}
-	@Test(priority=-1)
+	@Test(priority=2)
 	public void InvalidPasswordValidUsername() 
 	{
 		Test=extentReport.createTest("InvalidPasswordValidUsername");
@@ -51,7 +51,7 @@ public class FaceBookLoginTest1 extends BaseTest  {
 		obj.enterPassword("11111");
 		//obj.clickOnLogin();
 	}
-	@Test(timeOut=1000)
+	@Test(priority=3,timeOut=1000)
 	public void InvalidPasswordInvalidUsername() throws InterruptedException
 	{
 		Test=extentReport.createTest("InvalidPasswordInvalidUsername");
