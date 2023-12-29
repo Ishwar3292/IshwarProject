@@ -15,6 +15,7 @@ public class HomePageTest extends BaseTest {
 	
 	@Test
 	public void demo() {
+		
 		System.out.println("demo");
 	}
 	
